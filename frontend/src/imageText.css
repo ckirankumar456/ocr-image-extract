@@ -1,0 +1,71 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+#ChooseFile {
+  padding: 10px;
+  border: 2px dashed #888;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#images {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease-in-out;
+}
+#images:hover {
+  transform: scale(1.05);
+}
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.Extract {
+  background-color: #4caf50;
+  color: white;
+}
+.Extract:hover {
+  background-color: #45a049;
+}
+.Edit {
+  background-color: #2196f3;
+  color: white;
+}
+.Edit:hover {
+  background-color: #0b7dda;
+}
+.Download {
+  background-color: #ff9800;
+  color: white;
+}
+.Download:hover {
+  background-color: #e68a00;
+}
+.Textbox {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  font-size: 14px;
+  resize: vertical;
+  margin-top: 10px;
+  text-align: justify;
+}
+.Textbox.edit-mode {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+}
